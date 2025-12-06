@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/forecast.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/forecast", "dest": "/api/forecast.js" }
+  ]
+}
